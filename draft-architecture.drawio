@@ -1,26 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T19:53:16.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zmYu8IZEicyA44a7Ufy6" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T20:02:00.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="udk_kmm36UjCyeR693x9" version="24.3.1" type="github">
   <diagram name="Seite-1" id="9gBseFmb6cs3R7AxfvP6">
     <mxGraphModel dx="923" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xsF1oiGSLqGWLh3Dt7cL-1" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="110" width="500" height="280" as="geometry" />
+          <mxGeometry x="30" y="50" width="790" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="xsF1oiGSLqGWLh3Dt7cL-1" source="xsF1oiGSLqGWLh3Dt7cL-2" target="xsF1oiGSLqGWLh3Dt7cL-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fefbfb;strokeColor=#ff5768;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
+          <mxGeometry x="350" y="108" width="390" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="xsF1oiGSLqGWLh3Dt7cL-1" source="xsF1oiGSLqGWLh3Dt7cL-2" target="xsF1oiGSLqGWLh3Dt7cL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-13" value="stream ESM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xsF1oiGSLqGWLh3Dt7cL-4">
+          <mxGeometry x="0.1587" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xsF1oiGSLqGWLh3Dt7cL-2" value="MSK Kafka cluster" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
-          <mxGeometry x="50" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="50" y="163" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-3" value="Lambda&lt;br&gt;MSK Kafka topic -&amp;gt; SAP CPI Webhook" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
-          <mxGeometry x="350" y="121" width="78" height="78" as="geometry" />
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-7" value="EventBridge" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;labelPosition=right;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
+          <mxGeometry x="350" y="80" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.eventbridge_pipes;" vertex="1" parent="1">
-          <mxGeometry x="620" y="250" width="78" height="78" as="geometry" />
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-5" value="EventBridge&lt;br&gt;Pipe" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.eventbridge_pipes;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
+          <mxGeometry x="370" y="172" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-9" value="Dead-Letter-Queue" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
+          <mxGeometry x="630" y="310" width="78" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="xsF1oiGSLqGWLh3Dt7cL-8" value="Event" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.event;" vertex="1" parent="xsF1oiGSLqGWLh3Dt7cL-1">
+          <mxGeometry x="630" y="165" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="xsF1oiGSLqGWLh3Dt7cL-6" value="&lt;a href=&quot;https://aws.amazon.com/de/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/&quot;&gt;https://aws.amazon.com/de/blogs/compute/sending-and-receiving-webhooks-on-aws-innovate-with-event-notifications/&amp;nbsp;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="460" width="660" height="30" as="geometry" />
+          <mxGeometry x="30" y="570" width="660" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
